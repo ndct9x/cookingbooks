@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
         tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
         tabLayout.addTab(tabLayout.newTab().setText("Tab 3"));
-        //tabLayout.addTab(tabLayout.newTab().setText("Tab 0"));
+        tabLayout.addTab(tabLayout.newTab().setText("Tab 4"));
 
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
