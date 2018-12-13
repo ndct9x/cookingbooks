@@ -1,6 +1,5 @@
-package com.example.qmlab.cookingbooks;
+package com.example.qmlab.cookingbooks.Activities;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -8,7 +7,11 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.Window;
+
+import com.example.qmlab.cookingbooks.Fragment.FavoritesFragment;
+import com.example.qmlab.cookingbooks.Fragment.HomeFragment;
+import com.example.qmlab.cookingbooks.R;
+import com.example.qmlab.cookingbooks.Fragment.UserFragment;
 
 public class MainActivity extends AppCompatActivity{
 
